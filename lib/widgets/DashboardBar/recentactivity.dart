@@ -12,8 +12,7 @@ class RecentActivity extends StatelessWidget {
       width: double.infinity,
       color: Colors.white,
       padding: EdgeInsets.all(20),
-      child:
-          Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Text(
           "Recent Activity",
           style: TextStyle(fontSize: 15),
@@ -21,13 +20,14 @@ class RecentActivity extends StatelessWidget {
         SizedBox(height: 8),
         Column(
           children: [
-            RecentPurchase("-\$20.0","12 Nov- Purchase","Respawn Entertainment"),
-            SizedBox(height:10),
-            RecentPurchase("+\$40.0","30 August- Money Recieved","Malcolm Baxter"),
+            RecentPurchase("-\$20.0", "12 Nov- Purchase",
+                "Respawn Entertainment", "assets/images/respawn.jpg"),
+            SizedBox(height: 10),
+            RecentPurchase("+\$40.0", "30 August- Money Recieved",
+                "Malcolm Baxter", "assets/images/goku.jpg"),
           ],
         )
       ]),
     );
   }
 }
-

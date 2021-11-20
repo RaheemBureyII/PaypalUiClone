@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:paypalclone/widgets/DashboardBar/CircleandName.dart';
+
 class SendAgain extends StatelessWidget {
   const SendAgain({
     Key? key,
@@ -11,8 +12,7 @@ class SendAgain extends StatelessWidget {
       width: double.infinity,
       color: Colors.white,
       padding: EdgeInsets.all(20),
-      child:
-          Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Text(
           "Send again",
           style: TextStyle(fontSize: 15),
@@ -21,9 +21,9 @@ class SendAgain extends StatelessWidget {
         Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CircleandName("John \n Brown"),
+            CircleandName("John \n Brown", "assets/images/robot.jpg"),
             SizedBox(width: 20),
-            CircleandName("Mary \n Jane"),
+            CircleandName("Mary \n Jane", "assets/images/bluerose.jpg"),
             SizedBox(width: 20),
             Column(children: [
               CircleAvatar(
@@ -36,8 +36,7 @@ class SendAgain extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text("Search",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 14))
+                  textAlign: TextAlign.center, style: TextStyle(fontSize: 14))
             ])
           ],
         )
