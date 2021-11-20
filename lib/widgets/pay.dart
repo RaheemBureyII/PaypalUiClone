@@ -10,50 +10,14 @@ class Pay extends StatefulWidget {
 class _PayState extends State<Pay> {
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-        onPressed: () {
-          showModalBottomSheet(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20.0),
-              ),
-              context: context,
-              builder: (context) {
-                return Container(
-                    height: 100,
-                    margin: EdgeInsets.all(30),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              CircleAvatar(
-                                child: IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(Icons.send),
-                                ),
-                                backgroundColor: Colors.grey.shade300,
-                              ),
-                              SizedBox(height: 10),
-                              Text("Pay")
-                            ]),
-                        Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              CircleAvatar(
-                                child: IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(Icons.local_atm),
-                                ),
-                                backgroundColor: Colors.grey.shade300,
-                              ),
-                              SizedBox(height: 10),
-                              Text("GetPaid")
-                            ])
-                      ],
-                    ));
-              });
-        },
-        child: Text("stuff"));
+    return BottomSheet(
+      onClosing: () {},
+      builder: (context) {
+        return Container(
+          child: Text("sdasdas"),
+        );
+      },
+      backgroundColor: Colors.blue,
+    );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class WalletOption extends StatelessWidget {
   const WalletOption({
     Key? key,
@@ -47,7 +48,7 @@ class WalletOption extends StatelessWidget {
                   ]),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              //margin: EdgeInsets.all(10),
               padding: EdgeInsets.all(10),
               child: Column(children: [
                 Row(
