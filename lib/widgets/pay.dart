@@ -14,7 +14,10 @@ class _PayState extends State<Pay> {
       onClosing: () {},
       builder: (context) {
         return Container(
+          margin: EdgeInsets.all(20),
           child: Text("sdasdas"),
+          height: 200,
+          width: 200,
         );
       },
       backgroundColor: Colors.blue,
