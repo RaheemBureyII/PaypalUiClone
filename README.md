@@ -4,7 +4,8 @@ The Flutter-based PayPal UI clone offers a seamless user experience with feature
 
 ## Login Screen
 
-![image](https://user-images.githubusercontent.com/94723743/236694197-4d2fc6b5-fe14-4e6a-b401-a303bc3e0a9e.png)
+![image]()
+<img src="https://user-images.githubusercontent.com/94723743/236694197-4d2fc6b5-fe14-4e6a-b401-a303bc3e0a9e.png)" width="100" height="100">
 
 ## Dashboard
 
